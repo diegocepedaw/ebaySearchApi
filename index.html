@@ -1,0 +1,61 @@
+
+<html>
+<head>
+<title>eBay Search Results</title>
+<style type="text/css">body { font-family: arial,sans-serif;} </style>
+</head>
+<body>
+
+
+<h1 >eBay Search Results</h1>
+<h3>This site displays auctions on eBay that have zero bids and are close to ending so you can get the lowest price possible on what you're looking for!</h3>
+
+
+<form action="ebayAPI.php" method="post">
+Search: <input type="text" name="searchBar" >
+<select name="categoryMenu">
+  <option>Antiques</option>
+  <option>Art</option>
+  <option>Baby</option>
+  <option>Books</option>
+  <option>Business and Industrial</option>
+  <option>Cameras and Photo</option>
+  <option>Cell Phones and Accessories</option>
+  <option>Clothing, Shoes and Accessories</option>
+  <option>Coins and Paper Money</option>
+  <option>Computers/Tablets and Networking</option>
+  <option>Consumer Electronics</option>
+  <option>Crafts</option>
+  <option>Dolls and Bears</option>
+  <option>DVDs and Movies</option>
+  <option>Entertainment Memorabilia</option>
+  <option>Gift Cards and Coupons</option>
+  <option>Health and Beauty</option>
+  <option>Home and Garden</option>
+  <option>Jewelry and Watches</option>
+  <option>Music</option>
+  <option>Musical Instruments and Gear</option>
+  <option>Pet Supplies</option>
+  <option>Pottery and Glass</option>
+  <option>Real Estate</option>
+  <option>Specialty Services</option>
+  <option>Sporting Goods</option>
+  <option>Sports Mem, Cards and Fan Shop</option>
+  <option>Stamps</option>
+  <option>Tickets and Experiences</option>
+  <option>Toys and Hobbies</option>
+  <option>Travel</option>
+  <option>Video Games and Consoles</option>
+</select>
+<input type="submit" value="Submit" >
+<br/>
+</form>
+
+
+
+<div id="results"></div>
+
+
+</body>
+</html>
+
